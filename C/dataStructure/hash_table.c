@@ -191,7 +191,7 @@ void deleteElement( char *name){
 		return;
 	//then hash the name if it is not null to get an index value
 	unsigned int index = hash_function(name);
-	//check if the elment is in the table
+	//check if the element is in the table
 	if(hash_table[index] != NULL && strcmp(name, hash_table[index]->name) == 0){
 		hash_table[index] = NULL;
 	}else{
