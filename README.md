@@ -1,5 +1,5 @@
 
-# algorithms16
+# Algorithms16
 
 This repository contains the implementation of the most common algorithms for searching, sorting, encryption etc... in C programming language 
 
