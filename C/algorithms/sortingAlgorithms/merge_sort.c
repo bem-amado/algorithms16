@@ -49,7 +49,7 @@ void mergeSort(int array [], int left, int rigth){
         return;
     }
 
-    //recursion case
+    //recursive case
     if(left < rigth){
         //find the midle point
         midle  = (left + rigth) /2;
@@ -118,7 +118,7 @@ void merge(int array[],int left,int midle, int rigth) {
 }
 
 /*
- * This function is a utility to help us print array before and after
+ * This function is an utility to help us print array before and after
  * merge sort
  */
 void printArray(int array[], int size){

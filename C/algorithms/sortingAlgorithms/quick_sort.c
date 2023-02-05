@@ -1,9 +1,7 @@
 /***************************************************************************
 *   This is an implementation of quick sort algorithm in c
 *   @author: Mr.printf (127.0.0.mi)
-*   Definition : In terms of algortihms bogo sort is one of the worst
-*   searching algorithm you can implement, it consists of radom shuffle the
-*   unsorted array until it becomes sorted...
+*   Definition :
 *   Runnig time: O(nlogn)
 *
 *****************************************************************************/

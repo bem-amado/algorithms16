@@ -28,7 +28,7 @@ main(void) {
     (result == -1 )
     ? printf("target not found\n")
 
-    :printf("target %d is found at position %d\012",myArray[result], result);
+    :printf("target %d found at position %d\012",myArray[result], result);
 
     return 0;
 }
@@ -60,7 +60,7 @@ int binarySearch(int array[], int left,int rigth, int key){
 //Execute : time ./Rbinary
 /* output :
 
-    target 75 is found at position 6
+    target 75  found at position 6
 
     real    0m0.002s
     user    0m0.002s

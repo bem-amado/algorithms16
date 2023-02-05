@@ -1,7 +1,7 @@
 /******************************************************************************
 *  The difference between linked list and array is that in array
 *  data is stored at contiguous location in memory; in a linked list
-*  we use pointers to link elements together in memory.
+*  we use pointers to link elements together in the memory.
 *                                                       -@mr.printf
 ******************************************************************************/
 
@@ -187,12 +187,12 @@ void deleteNode(node *head, node *target){
 
 /*
  * Use ths function to delete the entire linked list in memory
- * passig the head as argument
+ * passing the head as argument
  */
 void  freeList(node *head){
 
   //create temporary node pointer and cursor pointer
-  node *tmp;// = malloc(sizeof(node));
+  node *tmp;//
   node *cursor = head;
   //take one node by one and delete it
   while(cursor != NULL){

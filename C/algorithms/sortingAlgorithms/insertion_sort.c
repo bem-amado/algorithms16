@@ -57,8 +57,8 @@ void insertionSort(int array[], int size){
 
 
 /*
- * This function is a utility to help us print array before and after
- * merge sort
+ * This function is an utility to help us print array before and after
+ * insertion sort
  */
 void printArray(int array[], int size){
 

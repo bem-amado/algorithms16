@@ -22,7 +22,7 @@ main(void){
     result = linearSearch(myArray,size,-1);
     (result == -1)
     ? printf("Target not found\n")
-    : printf("Target %d is found at position %d\n", myArray[result], result);
+    : printf("Target %d found at position %d\n", myArray[result], result);
 
     return 0;
 }
@@ -44,5 +44,5 @@ int linearSearch(int array[],int size, int key){
 
 //compile :  gcc -o linear linear_search.c
 //execute :  ./linear
-//output  :  Target -1 is found at position 4
+//output  :  Target -1  found at position 4
 
